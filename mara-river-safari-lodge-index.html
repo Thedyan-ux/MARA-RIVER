@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jelajahi pengalaman menginap bertema safari Afrika di Mara River Safari Lodge, Bali.">
+  <meta name="theme-color" content="#fff8f5">
+  <title>Mara River Safari Lodge | Pengalaman Safari di Bali</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=EB+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { margin: 0; width: 100%; overflow-x: hidden; background: #fff8f5; }
+    body, button, input, select { font-family: "DM Sans", sans-serif; }
+    .font-serif { font-family: "EB Garamond", serif; }
+    .section-anchor { scroll-margin-top: 88px; }
+    .hero {
+      background-image:
+        linear-gradient(to top, rgba(30,27,25,.92) 0%, rgba(30,27,25,.45) 50%, rgba(30,27,25,.55) 100%),
+        url("https://lh3.googleusercontent.com/aida-public/AB6AXuBlbGJUn0lyHreMBfK-zqoorxHSMPRuiI3kFQjVlTFHdCYVPBfPXM4FhKU-EyNpwc0596BC5jepc1hdPr9oibxWry_gyhd3H2jyQ9lzqkVQLRUUxVKOTPt6kJaUtAV9RG3t2JPrdoLbrQi9PNVH6t6DtawKovMT2SpHQrEwCT1m42z8Jnt5bUuJ4wS-kyY8WZNix2OjhGSfEUVdHri4cpnabfR1HKzukGPAwL041zE");
+      background-size: cover;
+      background-position: center;
+    }
+    .menu-open { display: flex !important; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+
+<body class="bg-[#fff8f5] text-[#1e1b19] antialiased">
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50 w-full bg-[#fff8f5]/95 shadow-sm border-b border-[#dac1ba]/40 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 min-h-20 flex items-center justify-between gap-4">
+      <a href="#home" class="font-serif text-base sm:text-2xl font-bold tracking-wider text-[#6e2d13] leading-tight">
+        MARA RIVER <span class="hidden sm:inline">SAFARI LODGE</span><span class="sm:hidden">LODGE</span>
+      </a>
+
+      <nav id="desktop-nav" class="hidden lg:flex items-center gap-5 text-xs font-bold tracking-wider text-[#54433d] uppercase">
+        <a href="#home" class="text-[#6e2d13] hover:text-[#87000d]">Home</a>
+        <a href="#lodges" class="hover:text-[#6e2d13]">Rooms</a>
+        <a href="#offers" class="hover:text-[#6e2d13]">Offers</a>
+        <a href="#facilities" class="hover:text-[#6e2d13]">Facilities</a>
+        <a href="#dining" class="hover:text-[#6e2d13]">Dining</a>
+        <a href="#contact" class="hover:text-[#6e2d13]">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="https://wa.me/628113877600?text=Halo%20Mara%20River%20Safari%20Lodge%2C%20saya%20ingin%20bertanya%20reservasi."
+           target="_blank" rel="noopener noreferrer"
+           class="bg-[#87000d] hover:bg-[#af141b] text-white text-xs sm:text-sm font-bold uppercase tracking-wider px-3 sm:px-5 py-2.5 rounded-lg shadow-sm transition">
+          Book Now
+        </a>
+        <button id="menu-button" type="button" aria-label="Buka menu navigasi" aria-expanded="false"
+          class="lg:hidden border border-[#dac1ba] rounded-lg px-3 py-2 text-[#6e2d13] text-xl">☰</button>
+      </div>
+    </div>
+
+    <nav id="mobile-nav" class="hidden lg:hidden flex-col gap-1 px-4 pb-4 text-sm font-semibold text-[#54433d] uppercase">
+      <a class="py-2 border-t border-[#dac1ba]/40" href="#home">Home</a>
+      <a class="py-2" href="#lodges">Rooms</a>
+      <a class="py-2" href="#offers">Offers</a>
+      <a class="py-2" href="#facilities">Facilities</a>
+      <a class="py-2" href="#dining">Dining</a>
+      <a class="py-2" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO & BOOKING -->
+    <section id="home" class="section-anchor hero w-full min-h-[650px] sm:min-h-[680px] flex flex-col justify-between py-12 px-4 sm:px-8 text-white">
+      <div class="max-w-4xl mx-auto text-center space-y-4 my-auto pt-8">
+        <span class="inline-block px-3.5 py-1 rounded-full bg-white/20 backdrop-blur-md text-amber-200 text-xs font-bold tracking-widest uppercase border border-white/20">
+          Resort Afrika di Bali • Taman Safari Bali
+        </span>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-medium leading-tight drop-shadow-md">
+          Mara River Safari Lodge
+        </h1>
+        <p class="text-sm sm:text-base text-white/90 max-w-2xl mx-auto leading-relaxed font-light drop-shadow">
+          Nikmati pengalaman menginap bernuansa safari Afrika di Bali. Rasakan suasana alam dan pengalaman melihat satwa dari area lodge.
+        </p>
+      </div>
+
+      <div class="max-w-5xl mx-auto w-full bg-white text-[#1e1b19] rounded-xl shadow-2xl p-4 sm:p-6 border border-[#dac1ba]/40 mt-10">
+        <form id="booking-form" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-end">
+          <div>
+            <label for="checkin" class="block text-xs font-bold uppercase tracking-wider text-[#54433d] mb-1">Check-In</label>
+            <input id="checkin" name="checkin" type="date" required
+              class="w-full bg-[#faf2ee] border border-[#dac1ba] rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#6e2d13]">
+          </div>
+          <div>
+            <label for="checkout" class="block text-xs font-bold uppercase tracking-wider text-[#54433d] mb-1">Check-Out</label>
+            <input id="checkout" name="checkout" type="date" required
+              class="w-full bg-[#faf2ee] border border-[#dac1ba] rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#6e2d13]">
+          </div>
+          <div>
+            <label for="room" class="block text-xs font-bold uppercase tracking-wider text-[#54433d] mb-1">Tipe Kamar</label>
+            <select id="room" name="room" class="w-full bg-[#faf2ee] border border-[#dac1ba] rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#6e2d13]">
+              <option>Swala Deluxe Room</option>
+              <option>Twiga Suite</option>
+              <option>Tembo Family Lodge</option>
+              <option>Tandala Suite</option>
+            </select>
+          </div>
+          <button type="submit" class="w-full bg-[#87000d] hover:bg-[#af141b] text-white font-bold text-xs sm:text-sm uppercase tracking-wider py-2.5 px-4 rounded-lg shadow transition">
+            Cek Tarif &amp; Promo
+          </button>
+        </form>
+        <div class="mt-3 pt-3 border-t border-[#dac1ba]/30 flex flex-wrap items-center justify-between text-xs text-[#54433d] gap-2">
+          <span>✨ <strong>Keuntungan menginap:</strong> Tanyakan paket dan akses yang termasuk kepada pihak lodge.</span>
+          <span>🔒 Konfirmasi ketentuan langsung dengan pihak hotel.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROOMS -->
+    <section id="lodges" class="section-anchor bg-[#faf2ee] py-14 px-4 sm:px-8">
+      <div class="max-w-7xl mx-auto space-y-10">
+        <div class="text-center max-w-2xl mx-auto space-y-2">
+          <span class="inline-block px-3 py-1 rounded-full bg-[#8d4e1a]/10 text-[#8d4e1a] text-xs font-bold uppercase tracking-widest">Akomodasi Ikonik</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-semibold text-[#6e2d13]">Pilihan Kamar &amp; Lodge Safari</h2>
+          <p class="text-sm text-[#54433d]">Temukan pilihan akomodasi untuk pengalaman menginap bersama keluarga maupun pasangan.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <article class="bg-white rounded-xl overflow-hidden shadow-sm border border-[#dac1ba]/40 flex flex-col">
+            <img class="w-full h-48 object-cover" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBjeCjC-zW1t6B3s_jY2679Md5sl_kvTQXpQcIGYIZRnYHZ1iHCqLrXYXvVEgpl9gVnEA2XPGNzujP_A7wg_zo51DdaW2aXfx8AE_d0Hnz2OV5ycla741ID0Z34cecbwSgiFFMJ6zPn8aMkf_CEkK_Ibyan7O1FcvhoJHd_7mFcNwabF3qUthq8qKE5Yu4ApK54UYYHEMIJiMb0oyR5HMFFu_9uh8CFgiM8zCOJLQ" alt="Tembo Family Lodge">
+            <div class="p-5 space-y-2 flex-1">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#6e2d13] bg-[#ffdbcf] px-2 py-1 rounded">Hingga 6 Tamu</span>
+              <h3 class="text-xl font-serif font-semibold text-[#6e2d13]">Tembo Family Lodge</h3>
+              <p class="text-xs text-[#54433d] leading-relaxed">Pilihan lodge keluarga dengan ruang yang dirancang untuk kenyamanan bersama.</p>
+            </div>
+            <div class="p-5 pt-3 border-t border-[#dac1ba]/30 flex items-center justify-between gap-2">
+              <div><span class="text-[10px] uppercase text-[#87736c] block">Harga indikatif</span><span class="text-lg font-bold text-[#6e2d13]">IDR 5,450K</span></div>
+              <a href="https://wa.me/628113877600?text=Halo%2C%20saya%20tertarik%20bertanya%20tentang%20Tembo%20Family%20Lodge." target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-[#87000d] hover:bg-[#af141b] text-white text-xs font-bold uppercase">Pesan</a>
+            </div>
+          </article>
+
+          <article class="bg-white rounded-xl overflow-hidden shadow-sm border border-[#dac1ba]/40 flex flex-col">
+            <img class="w-full h-48 object-cover" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpCUnApm1cFl39gymgdpnoWdJnOz4HJSetWxrBDdNc315tr-PF7B7dkx_jkL3G9Q2hyGG_60WjZjhbtypZvjcy6qZzPyks74lderw1CrneTBNfHifLTbIR3Vd4MH5MOi8oiG8Ql0lvx6AaadeZvbBvtrxEYbGy-zy3FRlGUpFBgJFJX6aMe3grGQCQwkPnqmBVeh50KOcpwlmsbmtfqv2928l50uTOonOkvgtxKSw" alt="Swala Deluxe Room">
+            <div class="p-5 space-y-2 flex-1">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#8d4e1a] bg-[#ffdcc6] px-2 py-1 rounded">Lantai Dasar</span>
+              <h3 class="text-xl font-serif font-semibold text-[#6e2d13]">Swala Deluxe Room</h3>
+              <p class="text-xs text-[#54433d] leading-relaxed">Kamar bernuansa safari dengan akses menuju area teras untuk menikmati suasana lodge.</p>
+            </div>
+            <div class="p-5 pt-3 border-t border-[#dac1ba]/30 flex items-center justify-between gap-2">
+              <div><span class="text-[10px] uppercase text-[#87736c] block">Harga indikatif</span><span class="text-lg font-bold text-[#6e2d13]">IDR 2,850K</span></div>
+              <a href="https://wa.me/628113877600?text=Halo%2C%20saya%20tertarik%20bertanya%20tentang%20Swala%20Deluxe%20Room." target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-[#87000d] hover:bg-[#af141b] text-white text-xs font-bold uppercase">Pesan</a>
+            </div>
+          </article>
+
+          <article class="bg-white rounded-xl overflow-hidden shadow-sm border border-[#dac1ba]/40 flex flex-col">
+            <img class="w-full h-48 object-cover" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgnlJiktoMyxOjedPZ9iBRFg2e--sQvWjelPFdgvj1Fy7eTVZnEwkxPSRKvl3HekK-9iQzicsctQK7wzfmwPZdRetIhkJAuMH0By0nk_amuDYHaWyFbKR2EOWhVVr6qFm4-kVW0VHZU-tFVrP9AiVpxXRfN967HjdHTCbzMVzaBm3RBZva4JfT2YjPrv1mbUzRelsFM22CbJT6m4jSgBhLMEZ0VWmyKLS53M2IYng" alt="Twiga Suite">
+            <div class="p-5 space-y-2 flex-1">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#6e2d13] bg-[#ffdbcf] px-2 py-1 rounded">Lantai Atas</span>
+              <h3 class="text-xl font-serif font-semibold text-[#6e2d13]">Twiga Suite</h3>
+              <p class="text-xs text-[#54433d] leading-relaxed">Suite dengan nuansa Afrika dan area untuk bersantai menikmati pemandangan sekitar.</p>
+            </div>
+            <div class="p-5 pt-3 border-t border-[#dac1ba]/30 flex items-center justify-between gap-2">
+              <div><span class="text-[10px] uppercase text-[#87736c] block">Harga indikatif</span><span class="text-lg font-bold text-[#6e2d13]">IDR 3,600K</span></div>
+              <a href="https://wa.me/628113877600?text=Halo%2C%20saya%20tertarik%20bertanya%20tentang%20Twiga%20Suite." target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-[#87000d] hover:bg-[#af141b] text-white text-xs font-bold uppercase">Pesan</a>
+            </div>
+          </article>
+
+          <article class="bg-white rounded-xl overflow-hidden shadow-sm border border-[#dac1ba]/40 flex flex-col">
+            <img class="w-full h-48 object-cover" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCehn9T7Ei2RO6EFy0W1DinZ7e9ggrwmJdzcmyU4TerZhH6bWy6gqC-hYl_NAULlPeuXwmorwFAW1fHoNyEPFrTgt57S6qSCi1wzZsd5iDSsL0XIONjVcouNV4bvCS7vL8CvGcjRvA0Fa9_QSBLdJTHqfBmTV8NUM37yQIBxRKbHc_t_m9EP6jB0sl3YP8MyD2WyLMLgmoBMzjX5dnBHauJ9wDSmJTubX8Nkxho8Ds" alt="Tandala Suite">
+            <div class="p-5 space-y-2 flex-1">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#8d4e1a] bg-[#ffdcc6] px-2 py-1 rounded">Savanna View</span>
+              <h3 class="text-xl font-serif font-semibold text-[#6e2d13]">Tandala Suite</h3>
+              <p class="text-xs text-[#54433d] leading-relaxed">Suite dengan konsep interior etnik dan suasana pemandangan savana.</p>
+            </div>
+            <div class="p-5 pt-3 border-t border-[#dac1ba]/30 flex items-center justify-between gap-2">
+              <div><span class="text-[10px] uppercase text-[#87736c] block">Harga indikatif</span><span class="text-lg font-bold text-[#6e2d13]">IDR 3,950K</span></div>
+              <a href="https://wa.me/628113877600?text=Halo%2C%20saya%20tertarik%20bertanya%20tentang%20Tandala%20Suite." target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-[#87000d] hover:bg-[#af141b] text-white text-xs font-bold uppercase">Pesan</a>
+            </div>
+          </article>
+        </div>
+        <p class="text-center text-xs text-[#87736c]">Harga di atas mengikuti materi awal dan perlu dikonfirmasi kembali kepada pihak pengelola. Ketersediaan serta ketentuan dapat berubah.</p>
+      </div>
+    </section>
+
+    <!-- OFFERS PLACEHOLDER / PROMO -->
+    <section id="offers" class="section-anchor py-12 px-4 sm:px-8 bg-[#fff8f5]">
+      <div class="max-w-7xl mx-auto rounded-2xl bg-[#6e2d13] text-white p-7 sm:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
+        <div class="max-w-2xl space-y-2">
+          <span class="text-xs uppercase tracking-widest font-bold text-amber-200">Special Experience</span>
+          <h2 class="text-3xl sm:text-4xl font-serif">Rencanakan Pengalaman Safari Anda</h2>
+          <p class="text-sm text-white/85">Hubungi tim reservasi untuk menanyakan paket, promo, dan ketersediaan kamar sesuai tanggal perjalanan Anda.</p>
+        </div>
+        <a href="https://wa.me/628113877600?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20promo%20dan%20paket%20menginap."
+          target="_blank" rel="noopener noreferrer" class="shrink-0 bg-white text-[#6e2d13] hover:bg-amber-100 px-6 py-3 rounded-lg text-xs font-bold uppercase tracking-wider">Tanya Promo</a>
+      </div>
+    </section>
+
+    <!-- DINING -->
+    <section id="dining" class="section-anchor py-12 px-4 sm:px-8 bg-[#fff8f5]">
+      <div class="max-w-7xl mx-auto space-y-10">
+        <div class="bg-[#f4ece8] rounded-2xl overflow-hidden border border-[#dac1ba]/40 grid grid-cols-1 lg:grid-cols-2 items-center">
+          <img class="w-full h-72 lg:h-[400px] object-cover" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgFF6V7-IMzTaNbF6OSM6UFmhF0Wu6n01XrdgJ7f5j41S6_ijE1q9yrDJoxeMOBsWiLeortUrCDGq7BTuno3pmx3A4gUKvmzjXI78NUDhtmDdVYBoAE78b-ViUeYayZfo8K5QqaY9n6nlGgowsf8d6bLEe5xF6WrcybVQeoWrtyNeK3V0dPNEEQ5lBLhItXy4Ph0loJAT0lf9xNC0jJsHLd3IZQqxOSihm8cqQWQ" alt="Tsavo Lion Restaurant">
+          <div class="p-6 sm:p-10 space-y-4">
+            <span class="text-xs font-bold uppercase tracking-widest text-[#8d4e1a]">Sensasi Bersantap</span>
+            <h2 class="text-3xl font-serif font-semibold text-[#6e2d13]">Tsavo Lion Restaurant</h2>
+            <p class="text-sm text-[#54433d] leading-relaxed">Nikmati pengalaman bersantap dengan konsep Afrika dan pemandangan area singa dari balik kaca pengaman.</p>
+            <a href="https://wa.me/628113877600?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20reservasi%20Tsavo%20Lion%20Restaurant."
+              target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-3 rounded-lg bg-[#87000d] hover:bg-[#af141b] text-white text-xs font-bold uppercase tracking-wider shadow">Tanya Reservasi Restoran</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FACILITIES -->
+    <section id="facilities" class="section-anchor py-12 px-4 sm:px-8 bg-[#faf2ee]">
+      <div class="max-w-7xl mx-auto space-y-8">
+        <div class="text-center space-y-2">
+          <span class="text-xs font-bold uppercase tracking-widest text-[#8d4e1a]">Explore the Lodge</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-semibold text-[#6e2d13]">Fasilitas &amp; Pengalaman Safari</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <article class="bg-white rounded-xl overflow-hidden shadow-sm border border-[#dac1ba]/30">
+            <img class="w-full h-44 object-cover" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiDhvdSOyRl7K2WYq7B6dhGIpXEJaSKvVt1KZinGKMJivt8tQTD-izQGLSJNlVZSKL2Uywc-KKC_pIPRqGPIP-WH3-W3UOxySzF3Msq5dALAsV1h5M6YM9TnL_HshNT8T6qk8I9gcNdG8Iw-uqWYK8GjS-C3qcW_kWR2zwFtYWAU4xIeK-8DsFNMSvLNW_oB-RNfwqQvueY3luSzTo4-YgBKQXpMW_RHqJwkcL8G4" alt="Kiboko Swimming Pool">
+            <div class="p-5 space-y-1.5"><h3 class="text-lg font-serif font-semibold text-[#6e2d13]">Kiboko Swimming Pool</h3><p class="text-xs text-[#54433d]">Area kolam renang untuk bersantai sambil menikmati suasana sekitar lodge.</p></div>
+          </article>
+          <article class="bg-white rounded-xl overflow-hidden shadow-sm border border-[#dac1ba]/30">
+            <img class="w-full h-44 object-cover" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyVsHDWBZWlVNtdABW7gUGr0ku52r8RP4bXIt5EgoGvR_apzVhOHjVH4Z4mTNmgog77dn4Ftk1GTlclwIhgJsUNbSh_7v8H9zy40Sz8vXnfiiQNrB80RPKR3jfPHeE15hREsClRp3RpP2iU78ezqaiwb-8AEKwGqjajJVn-tFLgUkZIKKSWsdOLNUiTprqm8r_MDwM7zy8UeAFzzAgHaYiOCxOeBC9OkTEtFZVQ2Q" alt="Balcony Animal Feeding">
+            <div class="p-5 space-y-1.5"><h3 class="text-lg font-serif font-semibold text-[#6e2d13]">Balcony Animal Feeding</h3><p class="text-xs text-[#54433d]">Tanyakan pengalaman memberi makan satwa dan ketentuan pelaksanaannya kepada pihak lodge.</p></div>
+          </article>
+          <article class="bg-white rounded-xl overflow-hidden shadow-sm border border-[#dac1ba]/30">
+            <img class="w-full h-44 object-cover" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXSDLdPlTtA1l7dq97U00ZVM1Tpv0WnFt1LpNjSihSYVg7XgKHxz5QMm2rKy0u9DLz4pxZj3PCZDgZsKgrlbD5J4Eypym2PCBGZwn6ZlPb9U0bj9f9FOdEY29MptHSLwfirfJD4i0I4bX2hmC4rGxTWAslslkHh8MCc37LSBu2Bf-4ETJeklfmYL7mZFUu8_WPcwd9REZZcM6RbBDoVS5lzMKzp7q4HfM5o3D_g5U" alt="Night Safari">
+            <div class="p-5 space-y-1.5"><h3 class="text-lg font-serif font-semibold text-[#6e2d13]">Night Safari Expedition</h3><p class="text-xs text-[#54433d]">Cari tahu pilihan aktivitas safari dan jadwal pengalaman malam yang tersedia.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="section-anchor bg-[#faf2ee] py-12 px-4 sm:px-8 border-t border-[#dac1ba]/40">
+    <div class="max-w-7xl mx-auto space-y-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="space-y-3">
+          <h2 class="text-xl font-serif font-bold text-[#6e2d13]">MARA RIVER SAFARI LODGE</h2>
+          <p class="text-xs text-[#54433d] leading-relaxed">Website informasi dan pengenalan pengalaman menginap bertema safari di Bali.</p>
+        </div>
+        <div class="space-y-2 text-xs text-[#54433d]">
+          <h3 class="text-sm font-bold text-[#6e2d13] uppercase tracking-wider">Kontak &amp; Lokasi</h3>
+          <p>📍 Jl. Prof. Dr. Ida Bagus Mantra Km 19.8, Gianyar, Bali 80551</p>
+          <p>📞 Telepon: +62 361 950000</p>
+          <p>💬 WhatsApp: +62 811 387 7600</p>
+          <p>✉️ Email: info@marariversafarilodge.com</p>
+        </div>
+        <div class="space-y-3">
+          <h3 class="text-sm font-bold text-[#6e2d13] uppercase tracking-wider">Reservasi</h3>
+          <a href="https://wa.me/628113877600?text=Halo%20Mara%20River%20Safari%20Lodge%2C%20saya%20ingin%20bertanya%20reservasi."
+            target="_blank" rel="noopener noreferrer" class="block w-full text-center py-3 px-5 rounded-lg bg-[#87000d] hover:bg-[#af141b] text-white text-xs font-bold uppercase tracking-wider shadow">Chat WhatsApp</a>
+        </div>
+      </div>
+      <div class="pt-6 border-t border-[#dac1ba]/40 text-center text-xs text-[#87736c]">
+        © <span id="current-year"></span> Mara River Safari Lodge concept website. Informasi perlu dikonfirmasi kepada pengelola.
+      </div>
+    </div>
+  </footer>
+
+  <!-- SMALL PROMO POPUP -->
+  <div id="promo-modal" class="hidden fixed inset-0 z-[60] bg-black/60 items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="promo-title">
+    <div class="relative max-w-md w-full rounded-2xl bg-[#fff8f5] p-7 shadow-2xl text-center">
+      <button id="close-modal" type="button" aria-label="Tutup pop-up" class="absolute right-4 top-3 text-2xl text-[#6e2d13]">&times;</button>
+      <span class="text-xs uppercase tracking-widest font-bold text-[#8d4e1a]">A Special Safari Stay</span>
+      <h2 id="promo-title" class="mt-2 text-3xl font-serif font-semibold text-[#6e2d13]">Rencanakan Liburan Anda</h2>
+      <p class="mt-3 text-sm text-[#54433d]">Hubungi tim reservasi untuk mengetahui promo dan paket menginap yang sedang tersedia.</p>
+      <a href="https://wa.me/628113877600?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20promo%20menginap."
+        target="_blank" rel="noopener noreferrer" class="inline-block mt-5 bg-[#87000d] hover:bg-[#af141b] text-white px-6 py-3 rounded-lg text-xs font-bold uppercase">Tanya Promo via WhatsApp</a>
+    </div>
+  </div>
+
+  <script>
+    // Menu navigasi untuk layar HP
+    const menuButton = document.getElementById("menu-button");
+    const mobileNav = document.getElementById("mobile-nav");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = mobileNav.classList.toggle("menu-open");
+      menuButton.setAttribute("aria-expanded", String(isOpen));
+      menuButton.textContent = isOpen ? "×" : "☰";
+    });
+
+    mobileNav.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        mobileNav.classList.remove("menu-open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.textContent = "☰";
+      });
+    });
+
+    // Set tanggal check-in ke hari ini dan check-out ke hari berikutnya
+    const checkin = document.getElementById("checkin");
+    const checkout = document.getElementById("checkout");
+    const toLocalDate = date => {
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, "0");
+      const day = String(date.getDate()).padStart(2, "0");
+      return `${year}-${month}-${day}`;
+    };
+
+    const today = new Date();
+    const tomorrow = new Date(today);
+    tomorrow.setDate(today.getDate() + 1);
+    checkin.min = toLocalDate(today);
+    checkin.value = toLocalDate(today);
+    checkout.min = toLocalDate(tomorrow);
+    checkout.value = toLocalDate(tomorrow);
+
+    checkin.addEventListener("change", () => {
+      const selected = new Date(`${checkin.value}T00:00:00`);
+      selected.setDate(selected.getDate() + 1);
+      const earliestCheckout = toLocalDate(selected);
+      checkout.min = earliestCheckout;
+      if (!checkout.value || checkout.value <= checkin.value) {
+        checkout.value = earliestCheckout;
+      }
+    });
+
+    // Form membuka WhatsApp dengan detail pilihan tamu
+    document.getElementById("booking-form").addEventListener("submit", event => {
+      event.preventDefault();
+      if (!checkin.value || !checkout.value || checkout.value <= checkin.value) {
+        alert("Tanggal check-out harus setelah tanggal check-in.");
+        return;
+      }
+
+      const room = document.getElementById("room").value;
+      const message = `Halo Mara River Safari Lodge, saya ingin bertanya ketersediaan dan tarif kamar.%0ACheck-in: ${checkin.value}%0ACheck-out: ${checkout.value}%0ATipe kamar: ${encodeURIComponent(room)}`;
+      window.open(`https://wa.me/628113877600?text=${message}`, "_blank", "noopener,noreferrer");
+    });
+
+    // Tahun footer
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+
+    // Pop-up penawaran: tampil setelah 8 detik, maksimal sekali per sesi halaman
+    const promoModal = document.getElementById("promo-modal");
+    const closeModal = () => {
+      promoModal.classList.add("hidden");
+      promoModal.classList.remove("flex");
+    };
+    document.getElementById("close-modal").addEventListener("click", closeModal);
+    promoModal.addEventListener("click", event => {
+      if (event.target === promoModal) closeModal();
+    });
+    window.setTimeout(() => {
+      if (!sessionStorage.getItem("promoSeen")) {
+        promoModal.classList.remove("hidden");
+        promoModal.classList.add("flex");
+        sessionStorage.setItem("promoSeen", "true");
+      }
+    }, 8000);
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") closeModal();
+    });
+  </script>
+</body>
+</html>
